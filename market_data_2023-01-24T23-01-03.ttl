@@ -1,0 +1,2532 @@
+@prefix ns1: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> .
+@prefix ns2: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix ns3: <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/> .
+@prefix ns4: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://finance.yahoo.com/quote/AAPL> a owl:NamedIndividual,
+        <https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare> ;
+    rdfs:label "AAPL"^^xsd:string ;
+    ns3:hasPrice <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930OpeningPrice> ;
+    ns4:isIdentifiedBy <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/AAPL> .
+
+<https://finance.yahoo.com/quote/GOOGL> a owl:NamedIndividual,
+        <https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare> ;
+    rdfs:label "GOOGL"^^xsd:string ;
+    ns3:hasPrice <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930OpeningPrice> ;
+    ns4:isIdentifiedBy <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/GOOGL> .
+
+<https://finance.yahoo.com/quote/MSFT> a owl:NamedIndividual,
+        <https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare> ;
+    rdfs:label "MSFT"^^xsd:string ;
+    ns3:hasPrice <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930OpeningPrice> ;
+    ns4:isIdentifiedBy <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/MSFT> .
+
+<https://finance.yahoo.com/quote/SPY> a owl:NamedIndividual,
+        <https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare> ;
+    rdfs:label "SPY"^^xsd:string ;
+    ns3:hasPrice <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930OpeningPrice> ;
+    ns4:isIdentifiedBy <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/SPY> .
+
+<https://finance.yahoo.com/quote/TSLA> a owl:NamedIndividual,
+        <https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare> ;
+    rdfs:label "TSLA"^^xsd:string ;
+    ns3:hasPrice <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929OpeningPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930AdjustedClosingPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930HighPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930LowPrice>,
+        <https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930OpeningPrice> ;
+    ns4:isIdentifiedBy <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/TSLA> .
+
+<https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/AAPL> a owl:NamedIndividual,
+        <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker> ;
+    rdfs:label "AAPL"^^xsd:string .
+
+<https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/GOOGL> a owl:NamedIndividual,
+        <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker> ;
+    rdfs:label "GOOGL"^^xsd:string .
+
+<https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/MSFT> a owl:NamedIndividual,
+        <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker> ;
+    rdfs:label "MSFT"^^xsd:string .
+
+<https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/SPY> a owl:NamedIndividual,
+        <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker> ;
+    rdfs:label "SPY"^^xsd:string .
+
+<https://ontology.nzsuperfund.co.nz/YahooFinanceTicker/TSLA> a owl:NamedIndividual,
+        <https://ontology.nzsuperfund.co.nz/YahooFinanceTicker> ;
+    rdfs:label "TSLA"^^xsd:string .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "10/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 140893200.0 ;
+    ns3:hasAmount 147.89454650878906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "10/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 155.47999572753906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "10/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 148.6999969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210910OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "10/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 155.0 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "13/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 102404300.0 ;
+    ns3:hasAmount 148.47036743164062 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "13/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 151.4199981689453 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "13/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 148.75 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210913OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "13/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 150.6300048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "14/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 109296300.0 ;
+    ns3:hasAmount 147.05068969726562 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "14/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 151.07000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "14/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 146.91000366210938 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210914OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "14/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 150.35000610351562 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "15/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 83281300.0 ;
+    ns3:hasAmount 147.95413208007812 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "15/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 149.44000244140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "15/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 146.3699951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210915OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "15/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 148.55999755859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "16/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 68034100.0 ;
+    ns3:hasAmount 147.71583557128906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "16/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 148.97000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "16/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 147.22000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210916OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "16/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 148.44000244140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "17/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 129868800.0 ;
+    ns3:hasAmount 145.0055694580078 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "17/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 148.82000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "17/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 145.75999450683594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210917OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "17/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 148.82000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "20/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 123478900.0 ;
+    ns3:hasAmount 141.90809631347656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "20/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.83999633789062 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "20/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.27000427246094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210920OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "20/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.8000030517578 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "21/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 75834000.0 ;
+    ns3:hasAmount 142.39453125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "21/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.60000610351562 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "21/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 142.77999877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210921OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "21/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.92999267578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "22/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 76404300.0 ;
+    ns3:hasAmount 144.79708862304688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "22/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 146.42999267578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "22/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 143.6999969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210922OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "22/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 144.4499969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "23/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 64838200.0 ;
+    ns3:hasAmount 145.77001953125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "23/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 147.0800018310547 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "23/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 145.63999938964844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210923OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "23/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 146.64999389648438 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "24/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 53477900.0 ;
+    ns3:hasAmount 145.85935974121094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "24/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 147.47000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "24/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 145.55999755859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210924OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "24/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 145.66000366210938 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "27/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 74150700.0 ;
+    ns3:hasAmount 144.32052612304688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "27/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 145.9600067138672 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "27/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 143.82000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210927OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "27/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 145.47000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "28/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 108972300.0 ;
+    ns3:hasAmount 140.88551330566406 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "28/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.75 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "28/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.69000244140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210928OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "28/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.25 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "29/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 74602000.0 ;
+    ns3:hasAmount 141.79888916015625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "29/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.4499969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "29/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 142.02999877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210929OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "29/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 142.47000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "30/09/2021AAPLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 89056700.0 ;
+    ns3:hasAmount 140.47848510742188 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "30/09/2021AAPLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.3800048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "30/09/2021AAPLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.27999877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/AAPL20210930OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "30/09/2021AAPLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.66000366210938 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "10/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 36840000.0 ;
+    ns3:hasAmount 140.87600708007812 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "10/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.718505859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "10/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 140.73800659179688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210910OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "10/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 144.21249389648438 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "13/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 22094000.0 ;
+    ns3:hasAmount 142.33250427246094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "13/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 142.9499969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "13/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.25 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210913OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "13/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 141.94949340820312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "14/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 19674000.0 ;
+    ns3:hasAmount 142.54449462890625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "14/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 143.36300659179688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "14/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.75 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210914OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "14/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 142.99549865722656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "15/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 27408000.0 ;
+    ns3:hasAmount 144.42950439453125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "15/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.45050048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "15/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 141.34750366210938 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210915OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "15/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 142.77149963378906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "16/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 26190000.0 ;
+    ns3:hasAmount 143.61000061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "16/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 144.3000030517578 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "16/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 142.40150451660156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210916OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "16/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.95050048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "17/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 53384000.0 ;
+    ns3:hasAmount 140.8000030517578 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "17/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 143.4499969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "17/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 140.47000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210917OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "17/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 143.03050231933594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "20/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 46518000.0 ;
+    ns3:hasAmount 138.71949768066406 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "20/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 139.0 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "20/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 136.32200622558594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210920OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "20/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 138.1614990234375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "21/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 25332000.0 ;
+    ns3:hasAmount 139.0330047607422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "21/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 140.01150512695312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "21/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 138.2779998779297 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210921OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "21/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 139.74949645996094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "22/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 25056000.0 ;
+    ns3:hasAmount 140.2834930419922 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "22/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 140.88699340820312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "22/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 138.55149841308594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210922OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "22/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 139.3040008544922 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "23/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 20952000.0 ;
+    ns3:hasAmount 141.21600341796875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "23/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 141.69650268554688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "23/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 140.40150451660156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210923OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "23/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 140.9875030517578 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "24/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 22984000.0 ;
+    ns3:hasAmount 142.21499633789062 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "24/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 142.33050537109375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "24/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 140.24099731445312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210924OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "24/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 140.5384979248047 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "27/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 21882000.0 ;
+    ns3:hasAmount 141.07200622558594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "27/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 141.93850708007812 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "27/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 140.0675048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210927OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "27/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 140.80450439453125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "28/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 45772000.0 ;
+    ns3:hasAmount 135.8300018310547 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "28/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 139.09649658203125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "28/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 135.36000061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210928OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "28/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 138.65499877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "29/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 30848000.0 ;
+    ns3:hasAmount 134.35350036621094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "29/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 137.1510009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "29/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 133.86500549316406 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210929OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "29/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 136.97999572753906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "30/09/2021GOOGLAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 37996000.0 ;
+    ns3:hasAmount 133.67599487304688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "30/09/2021GOOGLHighPrice"^^xsd:string ;
+    ns3:hasAmount 135.54249572753906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "30/09/2021GOOGLLowPrice"^^xsd:string ;
+    ns3:hasAmount 133.55599975585938 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/GOOGL20210930OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "30/09/2021GOOGLOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 134.26150512695312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "10/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 19633400.0 ;
+    ns3:hasAmount 292.4298400878906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "10/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 299.9200134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "10/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 295.3800048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210910OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "10/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 298.4200134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "13/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 23652900.0 ;
+    ns3:hasAmount 293.69561767578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "13/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 298.5400085449219 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "13/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 294.0799865722656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210913OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "13/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 297.54998779296875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "14/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 21853400.0 ;
+    ns3:hasAmount 296.4646301269531 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "14/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 301.3900146484375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "14/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 298.1000061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210914OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "14/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 299.5599975585937 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "15/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 28356300.0 ;
+    ns3:hasAmount 301.43878173828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "15/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 305.32000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "15/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 301.82000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210915OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "15/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 303.260009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "16/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 19550800.0 ;
+    ns3:hasAmount 301.8343811035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "16/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 305.3099975585937 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "16/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 300.760009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210916OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "16/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 303.760009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "17/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 41372500.0 ;
+    ns3:hasAmount 296.543701171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "17/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 304.5 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "17/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 299.5299987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210917OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "17/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 304.1700134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "20/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 38278700.0 ;
+    ns3:hasAmount 291.0354919433594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "20/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 298.7200012207031 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "20/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 289.5199890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210920OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "20/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 296.3299865722656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "21/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 22364100.0 ;
+    ns3:hasAmount 291.5299377441406 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "21/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 297.5400085449219 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "21/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 294.07000732421875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210921OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "21/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 295.69000244140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "22/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 26626300.0 ;
+    ns3:hasAmount 295.2680053710937 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "22/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 300.2200012207031 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "22/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 294.510009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210922OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "22/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 296.7300109863281 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "23/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 18604600.0 ;
+    ns3:hasAmount 296.2371826171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "23/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 300.8999938964844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "23/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 297.5299987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210923OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "23/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 298.8500061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "24/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 14999000.0 ;
+    ns3:hasAmount 296.02947998046875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "24/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 299.79998779296875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "24/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 296.92999267578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210924OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "24/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 298.2300109863281 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "27/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 23571700.0 ;
+    ns3:hasAmount 290.9069519042969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "27/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 296.4700012207031 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "27/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 292.94000244140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210927OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "27/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 296.1400146484375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "28/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 43186200.0 ;
+    ns3:hasAmount 280.3750915527344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "28/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 290.7799987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "28/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 282.75 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210928OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "28/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 289.79998779296875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "29/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 26353700.0 ;
+    ns3:hasAmount 280.8497619628906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "29/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 286.7699890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "29/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 283.010009765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210929OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "29/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 285.1000061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "30/09/2021MSFTAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 32343600.0 ;
+    ns3:hasAmount 278.7928161621094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "30/09/2021MSFTHighPrice"^^xsd:string ;
+    ns3:hasAmount 287.8299865722656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "30/09/2021MSFTLowPrice"^^xsd:string ;
+    ns3:hasAmount 281.6199951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/MSFT20210930OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "30/09/2021MSFTOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 285.7099914550781 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "10/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 89948200.0 ;
+    ns3:hasAmount 435.3994140625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "10/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 451.489990234375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "10/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 445.30999755859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210910OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "10/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 451.0400085449219 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "13/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 83738600.0 ;
+    ns3:hasAmount 436.5137023925781 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "13/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 448.9200134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "13/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 444.1099853515625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210913OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "13/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 448.6400146484375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "14/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 78197100.0 ;
+    ns3:hasAmount 434.1580505371094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "14/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 448.3399963378906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "14/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 443.2200012207031 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210914OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "14/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 448.1199951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "15/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 78792200.0 ;
+    ns3:hasAmount 437.7844543457031 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "15/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 448.4100036621094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "15/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 443.4400024414063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210915OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "15/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 444.6199951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "16/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 77786700.0 ;
+    ns3:hasAmount 437.0903930664063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "16/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 448.3599853515625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "16/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 444.0199890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210916OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "16/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 447.3200073242188 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "17/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 118425000.0 ;
+    ns3:hasAmount 432.8327331542969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "17/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 445.3699951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "17/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 441.0199890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210917OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "17/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 444.9200134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "20/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 166445500.0 ;
+    ns3:hasAmount 425.6155395507813 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "20/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 436.55999755859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "20/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 428.8599853515625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210920OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "20/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 434.8800048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "21/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 92526100.0 ;
+    ns3:hasAmount 425.2135314941406 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "21/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 437.9100036621094 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "21/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 433.0700073242188 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210921OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "21/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 436.5299987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "22/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 102350100.0 ;
+    ns3:hasAmount 429.36138916015625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "22/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 440.0299987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "22/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 433.75 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210922OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "22/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 436.0499877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "23/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 76396000.0 ;
+    ns3:hasAmount 434.5781555175781 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "23/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 444.8900146484375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "23/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 439.6000061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210923OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "23/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 439.8500061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "24/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 62094800.0 ;
+    ns3:hasAmount 435.29400634765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "24/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 444.6700134277344 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "24/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 441.2099914550781 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210924OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "24/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 441.4400024414063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "27/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 61371100.0 ;
+    ns3:hasAmount 434.0486450195313 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "27/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 444.0499877929688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "27/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 441.8999938964844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210927OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "27/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 442.80999755859375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "28/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 130436300.0 ;
+    ns3:hasAmount 425.3017578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "28/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 440.0400085449219 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "28/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 432.9400024414063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210928OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "28/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 439.6900024414063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "29/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 82329200.0 ;
+    ns3:hasAmount 426.01763916015625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "29/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 437.0400085449219 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "29/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 433.8500061035156 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210929OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "29/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 435.1900024414063 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "30/09/2021SPYAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 140506000.0 ;
+    ns3:hasAmount 420.8106689453125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "30/09/2021SPYHighPrice"^^xsd:string ;
+    ns3:hasAmount 436.7699890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "30/09/2021SPYLowPrice"^^xsd:string ;
+    ns3:hasAmount 428.7799987792969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/SPY20210930OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "30/09/2021SPYOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 436.0199890136719 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "10/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 45552600.0 ;
+    ns3:hasAmount 245.42333984375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "10/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 254.20333862304688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "10/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 244.83999633789065 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210910OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "10/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 253.1999969482422 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-10T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "13/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 68857500.0 ;
+    ns3:hasAmount 247.6666717529297 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "13/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 248.25999450683597 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "13/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 236.2833404541016 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210913OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "13/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 246.73666381835935 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-13T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "14/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 55574700.0 ;
+    ns3:hasAmount 248.163330078125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "14/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 251.4900054931641 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "14/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 245.46665954589844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210914OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "14/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 247.52333068847656 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-14T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "15/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 46073100.0 ;
+    ns3:hasAmount 251.94332885742188 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "15/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 252.2866668701172 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "15/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 246.1199951171875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210915OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "15/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 248.3333282470703 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-15T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "16/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 41770200.0 ;
+    ns3:hasAmount 252.3300018310547 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "16/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 252.97000122070312 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "16/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 249.20333862304688 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210916OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "16/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 250.94332885742188 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-16T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "17/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 84612600.0 ;
+    ns3:hasAmount 253.163330078125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "17/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 253.67999267578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "17/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 250.0 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210917OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "17/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 252.38333129882807 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-17T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "20/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 74273100.0 ;
+    ns3:hasAmount 243.38999938964844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "20/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 247.3333282470703 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "20/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 239.5399932861328 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210920OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "20/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 244.85333251953125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-20T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "21/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 48992100.0 ;
+    ns3:hasAmount 246.4600067138672 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "21/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 248.2466735839844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "21/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 243.47999572753903 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210921OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "21/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 244.92999267578125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-21T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "22/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 45378900.0 ;
+    ns3:hasAmount 250.64666748046875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "22/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 251.22332763671875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "22/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 246.3733367919922 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210922OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "22/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 247.8433380126953 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-22T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "23/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 35842500.0 ;
+    ns3:hasAmount 251.2133331298828 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "23/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 252.73333740234372 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "23/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 249.30667114257807 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210923OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "23/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 251.6666717529297 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-23T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "24/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 64119000.0 ;
+    ns3:hasAmount 258.1300048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "24/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 258.26666259765625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "24/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 248.1866607666016 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210924OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "24/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 248.6300048828125 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-24T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "27/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 84212100.0 ;
+    ns3:hasAmount 263.78668212890625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "27/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 266.3333435058594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "27/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 256.4366760253906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210927OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "27/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 257.7066650390625 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-27T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "28/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 76144200.0 ;
+    ns3:hasAmount 259.1866760253906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "28/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 265.2133178710937 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "28/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 255.3933258056641 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210928OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "28/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 262.3999938964844 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-28T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "29/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 62828700.0 ;
+    ns3:hasAmount 260.4366760253906 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "29/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 264.5 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "29/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 256.8933410644531 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210929OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "29/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 259.9333190917969 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-29T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930AdjustedClosingPrice> a owl:NamedIndividual,
+        ns1:AdjustedClosingPrice ;
+    rdfs:label "30/09/2021TSLAAdjustedClosingPrice"^^xsd:string ;
+    ns1:hasTradingVolume 53868000.0 ;
+    ns3:hasAmount 258.49334716796875 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930HighPrice> a owl:NamedIndividual,
+        ns1:HighPrice ;
+    rdfs:label "30/09/2021TSLAHighPrice"^^xsd:string ;
+    ns3:hasAmount 263.0433349609375 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930LowPrice> a owl:NamedIndividual,
+        ns1:LowPrice ;
+    rdfs:label "30/09/2021TSLALowPrice"^^xsd:string ;
+    ns3:hasAmount 258.3333435058594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://ontology.nzsuperfund.co.nz/marketprice/TSLA20210930OpeningPrice> a owl:NamedIndividual,
+        ns1:OpeningPrice ;
+    rdfs:label "30/09/2021TSLAOpeningPrice"^^xsd:string ;
+    ns3:hasAmount 260.3333435058594 ;
+    ns3:hasCurrency <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> ;
+    ns2:hasObservedDateTime "2021-09-30T00:00:00"^^xsd:dateTime .
+
+<https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/USD> a owl:NamedIndividual,
+        ns3:Currency ;
+    rdfs:label "USD"^^xsd:string .
+
